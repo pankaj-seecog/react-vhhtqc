@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
-
+import Routing from './Routing'
 class App extends Component {
   constructor() {
     super();
@@ -23,4 +23,4 @@ class App extends Component {
   }
 }
 
-render(<App />, document.getElementById('root'));
+render(<Routing />, document.getElementById('root'));
